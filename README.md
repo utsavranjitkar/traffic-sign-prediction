@@ -46,7 +46,3 @@ This project is a deep learning–based traffic sign classification system that 
 - Streamlit
 - NumPy
 - PIL
-
----
-
-## 📂 Project Structure
