@@ -11,8 +11,8 @@ st.set_page_config(
 st.markdown("""
 <style>
 .stApp {
-    background-color: #E8F5E9;
-    color : black;
+    background-color: #FDF4DC;
+    color : #5B7B81;
 }
 </style>
 """, unsafe_allow_html=True)
@@ -44,6 +44,15 @@ def preprocess_image(image):
     return img_array
 
 st.title("Traffic Sign Classification")
+st.info("""
+This model can predict the following traffic signs:
+- Construction work
+- No entry
+- Priority road
+- Speed limit 50
+- Stop
+- Wild animal crossing
+""")
 
 # TWO COLUMN LAYOUT
 col1, col2 = st.columns(2)
